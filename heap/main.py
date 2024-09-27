@@ -6,7 +6,7 @@ from pprint import pprint
 
 class Database:
 
-   FILENAME         = 'test.bin'
+   FILENAME         = 'test/results/test.bin'
    BLOCK_SIZE       = 4096
    HEADER_STRUCTURE = f'=H H I I I 64s 64s 64s'
    TABLE_STRUCTURE  = f'=H I I 9s 9s 6s'
