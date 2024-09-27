@@ -205,8 +205,9 @@ class Database:
             if data[0] == 1:
                pointer = struct.unpack('HH', self.next_register_pointer(pointer[0], pointer[1]))
                continue
-
+            print(data)   
             readable_data = self.readable_out(data)
+            print (readable_data)
 
             table.append(readable_data)
 
